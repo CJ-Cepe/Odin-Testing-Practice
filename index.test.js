@@ -1,4 +1,4 @@
-import { capitalize, reverse, add, subtract, multiply, divide, analyzeArray} from './index';
+import { capitalize, reverse, calculator, analyzeArray} from './index';
 
 describe('Testing Practice', () => {
   /*
@@ -42,18 +42,27 @@ describe('Calculation', ()=>{
     correct calculation.
   */
   test('Addition', () => {
-    expect(add(a, b)).toBe(30)
+    expect(calculator.add(a, b)).toBe(30)
   }) 
 
   test('Subtraction', ()=> {
-    expect(subtract(a, b)).toBe(10)
+    expect(calculator.subtract(a, b)).toBe(10)
   });
 
   test('Multiplication', ()=> {
-    expect(multiply(a, b)).toBe(200)
+    expect(calculator.multiply(a, b)).toBe(200)
   });
 
   test('Division', ()=> {
-    expect(divide(a, b)).toBe(2)
+    expect(calculator.divide(a, b)).toBe(2)
   });
 })
+
+/*
+A caesarCipher function that takes a string and a shift factor 
+  and returns it with each character “shifted”. Read more 
+  about how a Caesar cipher works on this website.
+
+--i'll comback to this someday!? need to rush studying due to poverty :<
+*/ 
+test.todo('Caesar Cipher');

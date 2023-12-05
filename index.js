@@ -10,21 +10,20 @@ function reverse(val) {
   return newVal;
 }
 
-function add(a, b) {
-  return a + b;
-}
-
-function subtract(a, b) {
-  return a - b;
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-function divide(a, b) {
-  return a / b;
-}
+const calculator = {
+  add(a, b) {
+    return a + b;
+  },
+  subtract(a, b) {
+    return a - b;
+  },
+  multiply(a, b) {
+    return a * b;
+  },
+  divide(a, b) {
+    return a / b;
+  },
+};
 
 function analyzeArray(nums) {
   const { length } = nums;
@@ -45,5 +44,5 @@ function analyzeArray(nums) {
   };
 }
 export {
-  capitalize, reverse, add, subtract, multiply, divide, analyzeArray,
+  capitalize, reverse, calculator, analyzeArray,
 };
