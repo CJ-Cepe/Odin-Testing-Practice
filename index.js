@@ -1,6 +1,7 @@
-function sum(a, b) {
-    return a + b;
-  }
 
+function capitalize(val){
+  val[0] = val[0].toUpperCase();
+  return val
+}
 
-export {sum}
+export {capitalize}
