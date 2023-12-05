@@ -1,2 +1,2 @@
-# babel-jest-dummy
-a dummy repo for experimenting with babel and jest
+# Project: Testing Practice
+* a project for the Odin Project JS course.
